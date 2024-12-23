@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abolaji Osobamiro - Backend Developer Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+
+        section {
+            padding: 40px 10%;
+            font-size: 120%
+        }
+        h2 {
+            color: blue;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .project h3 {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 15px;
+        }
+        .project p {
+            padding: 15px;
+            margin: 0;
+        }
+
+        /* Skills Section */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+
+        /* Contact Section */
+        a {
+            color: ;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abolaji Osobamiro</h1>
+        <p>Backend Developer Portfolio</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a back-end developer with over 5 years experience with Python frameworks such as Django, Flask and
+            FastApi. I have also implemented machine learning models into my projects through the use of TensorFlow, Scikit-
+            learn, Keras and more. I build reliable, fast and scalable web applications and softwares using the best modern
+            techniques available. I am also an extremely fast learner who adapts quickly to new technologies.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>E-commerce Application</h3>
+                <p>This is a web application that connects traders with customers from all over the world, and enables seamless transactions. Uses Django, and also has machine learning implementation using Tensorflow.</p>
+                <p><strong>Technologies:</strong> Python, Django, SQLite, Tensorflow, Flutterwave</p>
+                <p><a href="https://github.com/AbolajiOsobamiro/djangoshopapp" target="_blank">GitHub Repo</a></p>
+            </div>
+            <div class="project">
+                <h3>AI Translation App</h3>
+                <p>This is a web application that translates a give text into any number of given Languages. It uses the Gemini Api for the translation purpose, and FastApi for the Backend.</p>
+                <p><strong>Technologies:</strong> Python, FastApi, MySQL, Gemini Api</p>
+                <p><a href="https://github.com/AbolajiOsobamiro/Translation-project" target="_blank">GitHub Repo</a></p>
+            </div>
+            <div class="project">
+                <h3>Blog App</h3>
+                <p>This is a web application that enables users to create, edit, delete and read blogs from other writers. Extremely user friendly and beautiful.</p>
+                <p><strong>Technologies:</strong> Python, Flask, SQLite </p>
+                <p><a href="https://github.com/AbolajiOsobamiro/flask_blog_app" target="_blank">GitHub Repo</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript, C, C++, Java, Go.</li>
+            <li>Frameworks: Django, Flask, FastApi, Express.js, Node.js</li>
+            <li>Databases: PostgreSQL, MySQL, SQLite, MongoDB</li>
+            <li>Other Tools: Docker, Redis, Celery</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:abolajimichael2002@gmail.com">abolajimichael2002@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/AbolajiOsobamiro" target="_blank">github.com/AbolajiOsobamiro</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/abolaji-osobamiro-a64129291" target="_blank">linkedin.com/in/abolaji-osobamiro</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abolaji Osobamiro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
